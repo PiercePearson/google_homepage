@@ -1,0 +1,89 @@
+{
+  "Version": "18.04",
+  "OEM": {
+    "Vendor": "LENOVO",
+    "Product": "429033U"
+  },
+  "BIOS": {
+    "Vendor": "LENOVO",
+    "Version": "8DET61WW (1.31 )"
+  },
+  "CPU": {
+    "OpMode": "32-bit, 64-bit",
+    "CPUs": "4",
+    "Threads": "2",
+    "Cores": "2",
+    "Sockets": "1",
+    "Vendor": "GenuineIntel",
+    "Family": "6",
+    "Model": "42",
+    "Stepping": "7",
+    "Name": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz",
+    "Virtualization": "VT-x"
+  },
+  "Arch": "amd64",
+  "GPU": [
+    {
+      "Vendor": "8086",
+      "Model": "0126"
+    }
+  ],
+  "RAM": 3.9,
+  "Partitions": [
+    19.1,
+    10.9,
+    0.1,
+    15.2
+  ],
+  "Screens": [
+    {
+      "Size": "277mmx156mm",
+      "Resolution": "1366x768",
+      "Frequency": "60.10"
+    }
+  ],
+  "Autologin": true,
+  "LivePatch": true,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "x11"
+  },
+  "Language": "en_US",
+  "Timezone": "America/Los_Angeles",
+  "Install": {
+    "Media": "Ubuntu 18.04.1 LTS \"Bionic Beaver\" - Release amd64 (20180725)",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "manual",
+    "DownloadUpdates": false,
+    "Language": "en",
+    "Minimal": false,
+    "RestrictedAddons": false,
+    "Stages": {
+      "0": "language",
+      "5": "console_setup",
+      "8": "wireless",
+      "21": "prepare",
+      "46": "partman",
+      "56": "partman",
+      "57": "partman",
+      "58": "partman",
+      "87": "partman",
+      "92": "partman",
+      "279": "partman",
+      "281": "partman",
+      "318": "partman",
+      "321": "partman",
+      "328": "partman",
+      "331": "partman",
+      "355": "partman",
+      "365": "partman",
+      "377": "start_install",
+      "382": "timezone",
+      "407": "usersetup",
+      "431": "user_done",
+      "870": "done"
+    }
+  }
+}
